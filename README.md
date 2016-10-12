@@ -1,2 +1,2 @@
-# beatrix
+# BeatrixSass
 An OOSass Framework
