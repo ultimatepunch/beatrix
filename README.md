@@ -83,7 +83,7 @@ File Structure
 --------------
 
 The file structure is tightly linked to the various kinds of classes the Beatrix framework implements.
-Please us the boilerplate directories and files to see what specific files are required, and where to put what.
+Please use the boilerplate directories and files to see what specific files are required, and where to put what.
 
 - components
 - config
