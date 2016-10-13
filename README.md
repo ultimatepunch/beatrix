@@ -77,3 +77,4 @@ Segment 5: Typography
  - color
  - text-decoration
 
+(complete list required)
