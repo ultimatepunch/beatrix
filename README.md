@@ -19,7 +19,7 @@ Components, which start by defining a **block** class, must follow PascalCase.
     .ComponentName {
     }
 
-Elements are defined by a single - (dash), and written in camelCase
+**Elements** are defined by a single - (dash), and written in camelCase
 
     .ComponentName {
 	     
@@ -29,7 +29,7 @@ Elements are defined by a single - (dash), and written in camelCase
 	    }
     }
 
-Adapters are defined by an underscore, and are also written in camelCase.
+**Adapters** are defined by an underscore, and are also written in camelCase.
 
     .ComponentName_blueBox {
     }
