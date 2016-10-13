@@ -82,7 +82,8 @@ Segment 5: Typography
 File Structure
 --------------
 
-The file structure is related to the various kinds of classes the Beatrix framework implements.
+The file structure is tightly linked to the various kinds of classes the Beatrix framework implements.
+Please us the boilerplate directories and files to see what specific files are required, and where to put what.
 
 - components
 - config
