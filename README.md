@@ -16,7 +16,7 @@ A subversion of a component or element that varies slightly but maintains most o
 
 Components, which start by defining a...
 
- **block** class, must follow PascalCase.
+ **Block** class, must follow PascalCase.
 
     .ComponentName {
     }
