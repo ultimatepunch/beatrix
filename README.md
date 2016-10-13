@@ -5,7 +5,7 @@ Block, Element, Adaptor
 -----------------------
 
 Basically BEM, renamed to fit in with the name BEAtrix.
-However, Beatrix offers a much cleaner and legible syntax, rather than having double dash, single dashes, double underscores and single underscores all over the place. 
+However, Beatrix offers a much cleaner and legible syntax, rather than having double dash, single dashes, double underscores and single underscores all over the place. It focuses on symantically written class names and logical divisions of code.
 
  - Block:
 Defines a reusable component that will maintain styling wherever it is placed in the DOM body.
