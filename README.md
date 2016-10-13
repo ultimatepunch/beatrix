@@ -14,7 +14,7 @@ A Block-dependent part of the component which is intrinsically tied to the scope
 A subversion of a component or element that varies slightly but maintains most of the original properties of block or element.
 
 Syntax:
-Components, which start by defining a **block** class, must follow PascalCase.
+Components, which start by defining a **Block** class, must follow PascalCase.
 
     .ComponentName {
     }
