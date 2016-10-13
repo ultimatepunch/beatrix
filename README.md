@@ -78,3 +78,34 @@ Segment 5: Typography
  - text-decoration
 
 (complete list required)
+
+File Structure
+--------------
+
+The file structure is related to the various kinds of classes the Beatrix framework implements.
+
+- base
+- components
+- config
+- layout
+- lib
+- utils
+
+**base**
+As you will read in the notes left in the boilerplate files, the base directory is home for the groundworks of your styles. For example, basic html nodes are to be configured for default behaviour here. 
+
+**components**
+The directory to house your components using the BEA methodology. 
+Files are to be named according to the name of the component block class name.
+
+**config**
+Your global Sass Variables live here.
+
+**layout**
+This directory is for elements on your site such as the header and footer, which are (on the whole) none-reusable elements and require specific styles. These elements should still follow the BEA class naming convention and rules.
+
+**lib**
+A directory for all your libraries
+
+**utils**
+Utility classes & mixins. Utility classes should be prefixed with "u-", and contain the the property and attribute, divided by another "u". (E.g., .u-float-left, .u-bg-white, .u-colour-black, .u-display-block). Shorthand property names are acceptable, but each utility class should only provide one overriding attribute.
