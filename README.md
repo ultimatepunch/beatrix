@@ -16,7 +16,7 @@ A subversion of a component or element that varies slightly but maintains most o
 
 Components, which start by defining a...
 
- **Block** class, must follow PascalCase.
+ **block** class, must follow PascalCase.
 
     .ComponentName {
     }
@@ -39,4 +39,41 @@ or, for an Element:
 
     .ComponentName-elementName_adaptorName {
     }
+
+
+Property Order
+--------------
+
+One thing about CSS is that it can all just look like a long list of properties. This can cause duplication, scoping issues and general clutter. In an effort to avoid this, a structured order should be maintain based upon the kind of properties you are adding to your class. We have broken these down into Property Segments. When writing your class, you should make sure your properties are listed within the correct Property Segment, and that your Property Segments are ordered correctly. Ordering of properties within Property Segments doesn't matter.
+
+Segment 1: Dimensions
+
+ - width
+ - height
+ - max-width
+ - max-height
+
+Segment 2: Additional Dimensions
+
+ - margin
+ - padding
+ 
+Segment 3: Positioning
+
+ - float
+ - position
+ - display
+ - z-index
+
+Segment 4: Styling
+
+ - background 
+ - border (including border-radius) 
+ - opacity
+
+Segment 5: Typography
+
+ - font (including font-family, font-size etc.)
+ - color
+ - text-decoration
 
