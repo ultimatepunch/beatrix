@@ -84,7 +84,6 @@ File Structure
 
 The file structure is related to the various kinds of classes the Beatrix framework implements.
 
-- base
 - components
 - config
 - layout
@@ -99,7 +98,7 @@ The directory to house your components using the BEA methodology.
 Files are to be named according to the name of the component block class name.
 
 **config**
-Your global Sass Variables live here.
+Your global Sass Variables live here, as well as the groundworks of your styles. Base html nodes are to be configured for default behaviour here. 
 
 **layout**
 This directory is for elements on your site such as the header and footer, which are (on the whole) none-reusable elements and require specific styles. These elements should still follow the BEA class naming convention and rules.
