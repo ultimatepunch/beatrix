@@ -1,7 +1,8 @@
 Beatrix OOSass Framework
 ========================
 
-**Block, Element, Adaptor**
+Block, Element, Adaptor
+-----------------------
 
 Basically BEM, renamed to fit in with the name BEAtrix.
 However, Beatrix offers a much cleaner and legible syntax, rather than having double dash, single dashes, double underscores and single underscores all over the place. 
@@ -12,9 +13,6 @@ Defines a reusable component that will maintain styling wherever it is placed in
 A Block-dependent part of the component which is intrinsically tied to the scope of the block.
  - Adapter:
 A subversion of a component or element that varies slightly but maintains most of the original properties of block or element.
-
-Syntax:
--------
 
 Components, which start by defining a...
  **block** class, must follow PascalCase.
