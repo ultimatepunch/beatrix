@@ -1,5 +1,5 @@
-Beatrix OOSass Framework
-========================
+Beatrix OOSass Methodology
+==========================
 
 Block, Element, Adaptor
 -----------------------
